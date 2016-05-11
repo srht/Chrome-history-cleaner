@@ -1,6 +1,6 @@
 // select all checkboxes and set checked
 var inputElements=document.getElementsByTagName('input');
-for (var i =0;i<inputElements.length;i++)
+for (var i =0;i<inputElements.length;i++){
 	if (inputElements[i].type=='checkbox') {
 		inputElements[i].checked=true;
 	}
